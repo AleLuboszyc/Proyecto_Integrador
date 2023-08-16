@@ -1,0 +1,39 @@
+
+
+
+
+
+
+.carrito {
+    width: 7%;
+}
+
+.boton-shop {
+    border-radius: 50px;
+    width: 211px;
+    height: 47px;
+    top: 375px;
+    left: 110px;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 24.2px;
+    cursor: pointer;
+    background-color:  #ffffff;
+    border-color: #ffffff;
+}
+
+
+.boton-coleccion {
+    border-radius: 50px;
+    width: 211px;
+    height: 47px;
+    top: 375px;
+    left: 110px;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 24.2px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color:  #111111;
+    border-color: #ffffff;
+}
