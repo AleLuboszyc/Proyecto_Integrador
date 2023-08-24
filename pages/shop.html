@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/style.css">
     <title>Shop</title>
 </head>
+
 <body>
     <header>
         <nav>
             <picture>
                 <img href="../index.html" src="../imagenes/branding/logo_light_horizontal.svg" alt="logo-header">
-
             </picture>
             <ul>
                 <li>
@@ -31,5 +32,50 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <aside>
+            <fieldset>
+                <label>
+                    <h3>BUSCAR</h3>
+                    <input type="text" placeholder='Item o categoría' />
+                </label>
+                <label>
+                    <h3>ORDENAR POR</h3>
+                    <select name="order" id="">
+                        <option value="mayor" selected  >Mayor a menor</option>
+                        <option value="menor">Menor a mayor</option>
+                        <option value="fecha">Fecha</option>
+                    </select>
+                </label>
+                <label>
+                    <h3>PRECIO</h3>
+                    <span>MIN <input type="number" placeholder='0'/> - MAX <input type="number" placeholder='100' /> </span>
+                </label>
+                <h3>FILTRAR</h3>
+                <label >
+                    <input type="checkbox" />
+                    Nuevos
+                </label>
+                <label >
+                    <input type="checkbox" />
+                    Ofertas
+                </label>
+                <label >
+                    <input type="checkbox" />
+                    Edición Especial
+                </label>
+                <label >
+                    <input type="checkbox" />
+                    Favoritos
+                </label>
+
+            </fieldset>
+        </aside>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>
