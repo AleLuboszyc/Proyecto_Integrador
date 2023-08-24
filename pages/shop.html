@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/style.css">
     <title>Shop</title>
 </head>
+
 <body>
     <header>
         <nav>
             <picture>
                 <img href="../index.html" src="../imagenes/branding/logo_light_horizontal.svg" alt="logo-header">
-
             </picture>
             <ul>
                 <li>
@@ -31,5 +32,95 @@
             </ul>
         </nav>
     </header>
+    <main class='shopPage'>
+
+        <aside class='shopFilter'>
+            <fieldset>
+                <label>
+                    <h3>BUSCAR</h3>
+                    <input type="text" placeholder='Item o categoría' />
+                </label>
+                <label>
+                    <h3>ORDENAR POR</h3>
+                    <select name="order" id="">
+                        <option value="mayor" selected>Mayor a menor</option>
+                        <option value="menor">Menor a mayor</option>
+                        <option value="fecha">Fecha</option>
+                    </select>
+                </label>
+                <label>
+                    <h3>PRECIO</h3>
+                    <span>MIN <input type="number" placeholder='0' /> - MAX <input type="number" placeholder='100' />
+                    </span>
+                </label>
+                <h3>FILTRAR</h3>
+                <label>
+                    <input type="checkbox" />
+                    Nuevos
+                </label>
+                <label>
+                    <input type="checkbox" />
+                    Ofertas
+                </label>
+                <label>
+                    <input type="checkbox" />
+                    Edición Especial
+                </label>
+                <label>
+                    <input type="checkbox" />
+                    Favoritos
+                </label>
+
+            </fieldset>
+        </aside>
+
+        <section class='productosContainer'>
+
+            <div class='productosCard'>
+                <div class='imageContainer'>
+                    <img src="../imagenes/star-wars/trooper-1.webp" alt="trooper" class='imgCard'>
+                    <span>NUEVO</span>
+                </div>
+                <div>
+                    <h5>STAR WARS</h5>
+                    <h4>STORMTROOPER LIGHTSABER</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+
+            <div class='productosCard'>
+                <div class='imageContainer'>
+                    <img src="../imagenes/pokemon/pidgeotto-1.webp" alt="pidgeotto" class='imgCard'>
+                    <span>NUEVO</span>
+                </div>
+                <div>
+                    <h5>POKEMON</h5>
+                    <h4>PIDGEOTTO</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+
+            <div class='productosCard'>
+                <div class='imageContainer'>
+                    <img src="../imagenes/harry-potter/luna-1.webp" alt="luna" class='imgCard'>
+                    <span>NUEVO</span>
+                </div>
+                <div>
+                    <h5>HARRY POTTER</h5>
+                    <h4>LUNA LOVEGOOD LION MASK</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
 </body>
+
 </html>
