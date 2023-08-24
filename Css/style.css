@@ -1,8 +1,14 @@
+/* INDEX */
+* {
+    box-sizing: content-box;
+}
 
-
-
-
-
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
 
 .carrito {
     width: 7%;
@@ -18,7 +24,7 @@
     font-size: 20px;
     line-height: 24.2px;
     cursor: pointer;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     border-color: #ffffff;
 }
 
@@ -34,6 +40,31 @@
     line-height: 24.2px;
     cursor: pointer;
     color: #ffffff;
-    background-color:  #111111;
+    background-color: #111111;
     border-color: #ffffff;
+}
+
+/* SHOP */
+.shopFilter {
+    max-width: 15rem;
+}
+
+.shopPage {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.imageContainer {
+    width: 19.0005rem;
+    height: 22rem;
+    flex-shrink: 0;
+}
+
+.imgCard {
+    height: 100%;
+}
+
+.productosContainer {
+    display: flex;
+
 }
